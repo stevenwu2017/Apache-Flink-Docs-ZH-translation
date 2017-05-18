@@ -9,7 +9,7 @@ Twitter Streaming API 提供了,Twitter提供的对Twitter流的访问。Flink S
 认证
 为了连接到Twitter流，用户必须在应用程序中注册他们，并获得必要的信息进行身份验证。该过程如下所述。
 获取认证信息
-首先，需要一个Twitter帐户。免费注册在twitter.com/signup 或在Twitter的应用管理里登录和登记程序通过点击“创建新的应用程序”按钮。填写一份关于你的计划的表格,并接受条款和条件。在选择这个应用之后，API密钥和API的机密（在TwitterSource里分别称为twitter-source.consumerKey和twitter-source.consumerSecret）位于“API密钥”选项卡。必要的OAuth访问令牌的数据（TwitterSource包含 twitter-source.token和twitter-source.tokenSecret）可以产生和获得,在“密钥和访问令牌”选项卡。记住把这些信息保密，不要把它们推送到公共仓库。
+首先，需要一个Twitter帐户。免费注册在twitter.com/signup 或在Twitter的应用管理里登录和登记程序通过点击“创建新的应用程序”按钮。</br>填写一份关于你的计划的表格,并接受条款和条件。在选择这个应用之后，API密钥和API的机密（在TwitterSource里分别称为twitter-source.consumerKey和twitter-source.consumerSecret）位于“API密钥”选项卡。必要的OAuth访问令牌的数据（TwitterSource包含 twitter-source.token和twitter-source.tokenSecret）可以产生和获得,在“密钥和访问令牌”选项卡。记住把这些信息保密，不要把它们推送到公共仓库。
 用法
 对比其他连接器，该TwitterSource不依赖于额外的服务。例如下面的代码应该运行优雅：
 Java
